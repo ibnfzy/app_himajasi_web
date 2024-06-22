@@ -17,7 +17,7 @@
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css' integrity='sha512-6S2HWzVFxruDlZxI3sXOZZ4/eJ8AcxkQH1+JjSe/ONCEqR9L4Ysq5JdT5ipqtzU7WHalNwzwBv+iE51gNHJNqQ==' crossorigin='anonymous' />
 
-
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote.min.css' integrity='sha512-m52YCZLrqQpQ+k+84rmWjrrkXAUrpl3HK0IO4/naRwp58pyr7rf5PO1DbI2/aFYwyeIH/8teS9HbLxVyGqDv/A==' crossorigin='anonymous' />
 </head>
 
 <body>
@@ -37,10 +37,8 @@
         <!-- partial:../../partials/_footer.html -->
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
-            <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © bootstrapdash.com
-              2021</span>
-            <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin
-                template</a> from Bootstrapdash.com</span>
+            <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">JULTDEV</span>
+
           </div>
         </footer>
         <!-- partial -->
@@ -61,6 +59,8 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js' integrity='sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==' crossorigin='anonymous'></script>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js' integrity='sha512-lbwH47l/tPXJYG9AcFNoJaTMhGvYWhVM9YI43CT+uteTRRaiLCui8snIgyAN8XWgNjNhCqlAUdzZptso6OCoFQ==' crossorigin='anonymous'></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote.min.js' integrity='sha512-6rE6Bx6fCBpRXG/FWpQmvguMWDLWMQjPycXMr35Zx/HRD9nwySZswkkLksgyQcvrpYMx0FELLJVBvWFtubZhDQ==' crossorigin='anonymous'></script>
 
   <?= $this->renderSection('script'); ?>
 

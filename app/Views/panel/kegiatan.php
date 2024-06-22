@@ -57,3 +57,20 @@
 </div>
 
 <?= $this->endSection(); ?>
+
+<?= $this->section('script'); ?>
+
+<script>
+$(document).ready(function() {
+  $('#summernote').summernote({
+    height: 300,
+    callbacks: {
+      onImageUpload: function(files) {
+        uploadImage(files[0]);
+      }
+    }
+  });
+});
+</script>
+
+<?= $this->endSection(); ?>
