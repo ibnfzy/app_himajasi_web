@@ -6,6 +6,8 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+$routes->post('upload-image', 'PanelController::upload_image');
+$routes->post('delete-image', 'PanelController::deleteImage');
 
 $routes->get('/Login', 'Login::index');
 $routes->post('/Login/auth', 'Login::auth');

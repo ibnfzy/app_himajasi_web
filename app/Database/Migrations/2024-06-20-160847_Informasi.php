@@ -17,6 +17,11 @@ class Informasi extends Migration
             ],
             'body' => [
                 'type' => 'TEXT',
+                'null' => true,
+            ],
+            'image' => [
+                'type' => 'TEXT',
+                'null' => true,
             ],
             'type' => [
                 'type' => 'VARCHAR',

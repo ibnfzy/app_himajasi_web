@@ -15,9 +15,27 @@
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/Panel/">
+      <a class="nav-link" href="/Panel">
         <span class="menu-title">Kegiatan</span>
         <i class="mdi mdi-pound menu-icon"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/Panel/About">
+        <span class="menu-title">About</span>
+        <i class="mdi mdi-information menu-icon"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/Panel/Sejarah" class="nav-link">
+        <span class="menu-title">Sejarah</span>
+        <i class="mdi mdi-book-open menu-icon"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/Panel/Struktural" class="nav-link">
+        <span class="menu-title">Struktural</span>
+        <i class="mdi mdi-book-open menu-icon"></i>
       </a>
     </li>
   </ul>
