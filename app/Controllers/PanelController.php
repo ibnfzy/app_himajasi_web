@@ -207,4 +207,11 @@ class PanelController extends BaseController
             'type' => 'struktur',
         ]);
     }
+
+    public function dashboard()
+    {
+        return view('panel/dashboard', [
+            'data'
+        ]);
+    }
 }

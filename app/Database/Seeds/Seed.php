@@ -9,5 +9,7 @@ class Seed extends Seeder
     public function run()
     {
         $this->call('Admin');
+        $this->call('Slider');
+        $this->call('Kontak');
     }
 }

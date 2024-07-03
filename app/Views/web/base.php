@@ -10,10 +10,7 @@
   <link rel="shortcut icon" href="/web_assets/assets/images/logo-150x150.png" type="image/x-icon">
   <meta name="description"
     content="Create a stunning webpage organization with a captivating carousel and a sleek transparent navbar with absolute positioning.">
-
-
   <title>Captivating Web Organization</title>
-  <link rel="stylesheet" href="/web_assets/assets/web//web_assets/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="/web_assets/assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/web_assets/assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="/web_assets/assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -31,17 +28,17 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'
     integrity='sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=='
     crossorigin='anonymous' />
-
-
-
+  <style>
+  #hero-17-ug6usUBbkF {
+    transition: background-image 1s linear;
+  }
+  </style>
 
 </head>
 
 <body>
 
   <section data-bs-version="5.1" class="menu menu2 cid-ug6usUBeIj" once="menu" id="menu-5-ug6usUBeIj">
-
-
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
       <div class="container">
         <div class="navbar-brand">
@@ -101,7 +98,8 @@
   <section data-bs-version="5.1" class="header16 cid-ug6usUBbkF mbr-fullscreen mbr-parallax-background"
     id="hero-17-ug6usUBbkF">
 
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+    <div class=" mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);">
+    </div>
     <div class="container-fluid">
       <div class="row">
         <div class="content-wrap col-12 col-md-12">
@@ -121,9 +119,6 @@
   </section>
 
   <section data-bs-version="5.1" class="article9 cid-ug6usUBIZZ" id="about-me-9-ug6usUBIZZ">
-
-
-
 
     <div class="container">
       <div class="row justify-content-center">
@@ -169,9 +164,6 @@
   </section>
 
   <section data-bs-version="5.1" class="article8 cid-ug8LzjsLAa" id="article08-1">
-
-
-
 
     <div class="container">
       <div class="row justify-content-center">
@@ -229,8 +221,6 @@
                     </p>
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
@@ -240,9 +230,6 @@
   </section>
 
   <section data-bs-version="5.1" class="image08 cid-ug6usUExmE" id="image-12-ug6usUExmE">
-
-
-
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-4">
@@ -289,9 +276,6 @@
   </section>
 
   <section data-bs-version="5.1" class="features21 cid-ug8Lnra3er" id="features021-0">
-
-
-
 
     <div class="container">
       <div class="row mb-5 justify-content-center">
@@ -455,8 +439,6 @@
   </section>
 
   <section data-bs-version="5.1" class="form5 cid-ug6usUH0Qz" id="contact-form-3-ug6usUH0Qz">
-
-
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 content-head">
@@ -508,11 +490,6 @@
   </section>
 
   <section data-bs-version="5.1" class="footer2 cid-ug6usUI2Ln" once="footers" id="footer-5-ug6usUI2Ln">
-
-
-
-
-
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6 center mt-2 mb-3">
@@ -521,9 +498,6 @@
         <div class="col-12 col-lg-6 center">
           <div class="row-links mt-2 mb-3">
             <ul class="row-links-soc">
-
-
-
 
               <li class="row-links-soc-item mbr-fonts-style display-7">
                 <a href="#" class="text-white">About</a>
@@ -551,6 +525,29 @@
     <p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1"
       href="https://mobirise.com">Mobirise </a>
   </section>
+  <script>
+  const images = [
+    <?php foreach ($slider as $item) : ?> '<?= $item['image'] ?>',
+    <?php endforeach; ?>
+  ];
+
+  let currentIndex = 0;
+  const container = document.getElementById('hero-17-ug6usUBbkF');
+
+  function changeImage() {
+    // Update the background image
+    container.style.backgroundImage = `url(${'/uploads/' + images[currentIndex]})`;
+
+    // Update the index
+    currentIndex = (currentIndex + 1) % images.length;
+  }
+
+  // Initial image load
+  changeImage();
+
+  // Change image every 3 seconds
+  setInterval(changeImage, 7000);
+  </script>
   <script src="/web_assets/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/web_assets/assets/parallax/jarallax.js"></script>
   <script src="/web_assets/assets/smoothscroll/smooth-scroll.js"></script>
@@ -563,6 +560,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js'
     integrity='sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=='
     crossorigin='anonymous'></script>
+
 
 
 </body>

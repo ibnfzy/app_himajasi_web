@@ -23,7 +23,7 @@ body {
   font-family: Roboto Flex;
 }
 .display-1 {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 5rem;
   line-height: 1;
 }
@@ -31,7 +31,7 @@ body {
   font-size: 6.25rem;
 }
 .display-2 {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 4rem;
   line-height: 1;
 }
@@ -39,7 +39,7 @@ body {
   font-size: 5rem;
 }
 .display-4 {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -47,7 +47,7 @@ body {
   font-size: 1.5rem;
 }
 .display-5 {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 2.5rem;
   line-height: 1.5;
 }
@@ -55,7 +55,7 @@ body {
   font-size: 3.125rem;
 }
 .display-7 {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
 }
@@ -75,55 +75,75 @@ body {
 @media (max-width: 768px) {
   .display-1 {
     font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-2 {
     font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-4 {
     font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-5 {
     font-size: 2rem;
-    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-7 {
     font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .display-1 {
     font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.1 * (2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-2 {
     font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-4 {
     font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-5 {
     font-size: 2rem;
-    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(1.525rem + (2.5 - 1.525) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-7 {
     font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
 }
 /* Buttons */
@@ -571,7 +591,9 @@ a.text-black:focus,
 a.text-black.active {
   color: #000000 !important;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(
+    .navbar-caption
+  ) {
   position: relative;
   background-image: transparent;
   background-size: 10000px 2px;
@@ -579,7 +601,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-position: 0px 1.2em;
   background-position: -10000px 1.2em;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(
+    .navbar-caption
+  ):hover {
   transition: background-position 2s ease-in-out;
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-position: 0px 1.2em;
@@ -648,7 +672,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -659,11 +683,12 @@ a:hover {
 }
 .form-control:hover,
 .form-control:focus {
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
   border-color: #a8dadc !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -714,7 +739,11 @@ blockquote {
 }
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+.xdsoft_datetimepicker
+  .xdsoft_timepicker
+  .xdsoft_time_box
+  > div
+  > div.xdsoft_current {
   color: #000000 !important;
   background-color: #a8dadc !important;
   box-shadow: none !important;
@@ -738,7 +767,7 @@ blockquote {
 }
 iframe.lazy-placeholder,
 .lazy-placeholder:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 200px;
   height: 200px;
@@ -992,7 +1021,7 @@ a {
   padding: 0.5rem 1.8rem;
 }
 .cid-ug6usUBeIj .navbar .navbar-logo img {
-  min-width: 6rem;
+  /* min-width: 6rem; */
   object-fit: cover;
 }
 .cid-ug6usUBeIj .navbar .navbar-collapse {
@@ -1019,7 +1048,10 @@ a {
 .cid-ug6usUBeIj .navbar.collapsed .dropdown-menu .dropdown-item:after {
   right: auto;
 }
-.cid-ug6usUBeIj .navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+.cid-ug6usUBeIj
+  .navbar.collapsed
+  .dropdown-menu
+  .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
   margin-left: 0.5rem;
   margin-top: 0.2rem;
   border-top: 0.35em solid;
@@ -1063,7 +1095,10 @@ a {
   .cid-ug6usUBeIj .navbar .dropdown-menu .dropdown-item:after {
     right: auto;
   }
-  .cid-ug6usUBeIj .navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  .cid-ug6usUBeIj
+    .navbar
+    .dropdown-menu
+    .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
     margin-left: 0.5rem;
     margin-top: 0.2rem;
     border-top: 0.35em solid;
@@ -1111,7 +1146,11 @@ a {
 .cid-ug6usUBeIj .navbar.navbar-expand-lg .dropdown .dropdown-menu {
   background: #ffffff;
 }
-.cid-ug6usUBeIj .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+.cid-ug6usUBeIj
+  .navbar.navbar-expand-lg
+  .dropdown
+  .dropdown-menu
+  .dropdown-submenu {
   margin: 0;
   left: 105%;
   transform: none;
@@ -1240,7 +1279,12 @@ a {
   height: max-content !important;
   min-height: max-content !important;
 }
-.cid-ug6usUBeIj .navbar .dropdown > .dropdown-menu .dropdown .dropdown-item::after {
+.cid-ug6usUBeIj
+  .navbar
+  .dropdown
+  > .dropdown-menu
+  .dropdown
+  .dropdown-item::after {
   display: inline-block;
   position: static;
   margin-left: 0.5rem;
@@ -1250,7 +1294,12 @@ a {
   transition: 0.3s all;
   transform: rotate(-90deg);
 }
-.cid-ug6usUBeIj .navbar .dropdown > .dropdown-menu .dropdown.open .dropdown-item::after {
+.cid-ug6usUBeIj
+  .navbar
+  .dropdown
+  > .dropdown-menu
+  .dropdown.open
+  .dropdown-item::after {
   transform: rotate(0deg);
 }
 .cid-ug6usUBeIj .mbr-section-btn {
@@ -1305,7 +1354,12 @@ a {
     height: max-content !important;
     min-height: max-content !important;
   }
-  .cid-ug6usUBeIj .navbar .dropdown > .dropdown-menu .dropdown .dropdown-item::after {
+  .cid-ug6usUBeIj
+    .navbar
+    .dropdown
+    > .dropdown-menu
+    .dropdown
+    .dropdown-item::after {
     display: inline-block;
     position: static;
     margin-left: 0.5rem;
@@ -1315,7 +1369,12 @@ a {
     transition: 0.3s all;
     transform: rotate(0deg);
   }
-  .cid-ug6usUBeIj .navbar .dropdown > .dropdown-menu .dropdown.open .dropdown-item::after {
+  .cid-ug6usUBeIj
+    .navbar
+    .dropdown
+    > .dropdown-menu
+    .dropdown.open
+    .dropdown-item::after {
     transform: rotate(180deg);
   }
   .cid-ug6usUBeIj .navbar .dropdown > .dropdown-menu .dropdown-submenu {
